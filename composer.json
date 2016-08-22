@@ -1,0 +1,23 @@
+{
+	"name": "elgeeko/orm",
+	"version": "0.1.1",
+	"description": "Object Relation Mapping Library For Zend Framework",
+	"authors": [
+		{
+			"name": "elgeeko",
+			"email": "elgeeko@hotmail.com"
+		}
+	],	
+	"require": {
+		"php": ">=5.4"
+	},
+	"require-dev": {
+	},
+	"license": "MIT",
+	"autoload": {
+		"psr-4": {
+			"Elgeeko\\ORM\\": "src/"
+		}
+	},
+	"minimum-stability": "dev"
+}
